@@ -1,0 +1,90 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 100px 0;/*superior e inferior e zerando nas laterais*/
+}
+
+p, li{
+    color: gray;
+    font-size: 14px;/*parágrafos e li's*/
+}
+
+/*Brarra de navegaçõa*/
+
+header, .navbar{
+    background-color: #353D41;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width:75px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#navbar-links a{
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+/*SLider*/
+
+.conatiner-fluid{
+    padding: 0;
+}
+
+#mainSLider .carousel-inner, #mainSLider .carousel-item{
+    height: 100vh;
+    width: 100%;
+}
+
+#mainSlider .carousel-caption{
+    top: 50%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: white;
+}
+
+#main-btn{
+    background-color: #65DAF9;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px;
+    transition: 5s;
+}
+
+
+
